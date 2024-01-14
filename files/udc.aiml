@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+
+    <!-- Catégorie de bienvenue -->
+    <category>
+        <pattern>Bonjour</pattern>
+        <template>Bonjour! Comment puis-je vous aider dans votre orientation professionnelle aujourd'hui?</template>
+    </category>
+    <category>
+        <pattern>Salut</pattern>
+        <template>Salut! Comment puis-je vous aider dans votre orientation professionnelle aujourd'hui?</template>
+    </category>
+
+    <!-- Catégorie pour demander des informations personnelles -->
+    <category>
+        <pattern>QUELLE EST TON NOM</pattern>
+        <template>Je suis jobnavigator dédié à l'orientation professionnelle. Comment puis-je vous assister?</template>
+    </category>
+
+    <!-- Catégorie pour une question générique -->
+    <category>
+        <pattern>QUELLE EST LA MEILLEURE CARRIÈRE POUR MOI</pattern>
+        <template>Le choix de la meilleure carrière dépend de vos compétences, intérêts et objectifs. Pouvez-vous me donner plus d'informations sur vous-même?</template>
+    </category>
+
+    <!-- Catégorie pour demander des informations sur les compétences -->
+    <category>
+        <pattern>QU'ELLES SONT TES COMPÉTENCES</pattern>
+        <template>Je suis spécialisé dans l'orientation professionnelle et j'ai des compétences dans l'analyse des carrières et le conseil. Comment puis-je vous aider?</template>
+    </category>
+
+    <!-- Catégorie pour demander des informations sur les intérêts -->
+    <category>
+        <pattern>QUELS SONT TES INTÉRÊTS</pattern>
+        <template>En tant qu'assistant virtuel, je suis ici pour vous aider dans votre orientation professionnelle. Dites-moi quels sont vos intérêts pour que je puisse mieux vous assister.</template>
+    </category>
+
+    <!-- Catégorie pour demander des informations sur les objectifs professionnels -->
+    <category>
+        <pattern>QU'EST-CE QUE TU PEUX ME DIRE SUR MES OBJECTIFS PROFESSIONNELS</pattern>
+        <template>Je serais ravi d'en savoir plus sur vos objectifs professionnels. Pouvez-vous les partager avec moi?</template>
+    </category>
+
+    <!-- Catégorie pour demander des informations sur l'éducation -->
+    <category>
+        <pattern>QU'EST-CE QUE TU PEUX ME DIRE SUR L'ÉDUCATION</pattern>
+        <template>L'éducation joue un rôle crucial dans le choix de carrière. Pourriez-vous me donner des détails sur votre niveau d'éducation?</template>
+    </category>
+
+    <!-- Catégorie pour demander des informations sur l'expérience professionnelle -->
+    <category>
+        <pattern>QU'EST-CE QUE TU PEUX ME DIRE SUR MON EXPÉRIENCE PROFESSIONNELLE</pattern>
+        <template>Je serais intéressé à en savoir plus sur votre expérience professionnelle. Pouvez-vous partager des détails avec moi?</template>
+    </category>
+
+    <!-- Catégorie pour demander des conseils de recherche d'emploi -->
+    <category>
+        <pattern>DONNE-MOI DES CONSEILS POUR TROUVER UN EMPLOI</pattern>
+        <template>La recherche d'emploi peut être un processus délicat. Avez-vous des compétences spécifiques que vous souhaitez mettre en avant, ou des secteurs d'emploi particuliers qui vous intéressent?</template>
+    </category>
+
+    <!-- Catégorie pour discuter des opportunités de carrière -->
+    <category>
+        <pattern>QU'EST-CE QUE TU PEUX ME DIRE SUR LES OPPORTUNITÉS DE CARRIÈRE</pattern>
+        <template>Les opportunités de carrière varient en fonction de divers facteurs. Pouvez-vous me dire dans quelle industrie ou domaine vous recherchez des opportunités?</template>
+    </category>
+
+    <!-- Catégorie pour discuter de la reconversion professionnelle -->
+    <category>
+        <pattern>JE VEUX ME RECONVERTIR PROFESSIONNELLEMENT</pattern>
+        <template>La reconversion professionnelle est une décision importante. Pour mieux vous guider, pourriez-vous partager vos intérêts actuels et les domaines qui vous passionnent?</template>
+    </category>
+
+    <!-- Catégorie pour discuter des compétences en demande -->
+    <category>
+        <pattern>QUELLES SONT LES COMPÉTENCES EN DEMANDE</pattern>
+        <template>Les compétences en demande dépendent souvent de l'industrie. Pourriez-vous me dire dans quel secteur vous souhaitez développer vos compétences?</template>
+    </category>
+
+    <!-- Catégorie pour discuter de la croissance professionnelle -->
+    <category>
+        <pattern>COMMENT PUIS-JE ASSURER MA CROISSANCE PROFESSIONNELLE</pattern>
+        <template>La croissance professionnelle peut être stimulée par l'apprentissage continu et le développement de compétences. Quels domaines spécifiques vous intéressent pour votre croissance professionnelle?</template>
+    </category>
+
+    <!-- Catégorie pour discuter des certifications professionnelles -->
+    <category>
+        <pattern>QUELLES CERTIFICATIONS PROFESSIONNELLES SONT RECOMMANDÉES</pattern>
+        <template>Les certifications professionnelles dépendent souvent du secteur d'activité. Pourriez-vous me dire dans quel domaine vous travaillez ou souhaitez travailler?</template>
+    </category>
+
+    <!-- Catégorie pour discuter de l'entretien d'embauche -->
+    <category>
+        <pattern>COMMENT SE PRÉPARER POUR UN ENTRETIEN D'EMBAUCHE</pattern>
+        <template>La préparation pour un entretien d'embauche est cruciale. Pouvez-vous me donner des détails sur le type d'entretien ou l'industrie concernée?</template>
+    </category>
+
+    <!-- Catégorie pour discuter du réseautage professionnel -->
+    <category>
+        <pattern>COMMENT PUIS-JE AMÉLIORER MON RÉSEAUTAGE PROFESSIONNEL</pattern>
+        <template>Le réseautage professionnel est essentiel. Avez-vous des objectifs spécifiques de réseautage ou des industries dans lesquelles vous souhaitez élargir votre réseau?</template>
+    </category>
+
+    <!-- Catégorie pour discuter de la gestion du temps -->
+    <category>
+        <pattern>COMMENT GÉRER MON TEMPS EFFICACEMENT</pattern>
+        <template>La gestion du temps est cruciale pour la productivité. Pourriez-vous me dire quels sont vos défis spécifiques en matière de gestion du temps?</template>
+    </category>
+
+    <!-- Catégorie pour discuter du télétravail -->
+    <category>
+        <pattern>QUELS SONT LES AVANTAGES DU TÉLÉTRAVAIL</pattern>
+        <template>Le télétravail offre divers avantages. Pouvez-vous me dire si vous avez des préoccupations spécifiques ou des domaines que vous souhaitez explorer?</template>
+    </category>
+
+    <!-- Catégorie pour discuter du perfectionnement professionnel -->
+    <category>
+        <pattern>COMMENT PUIS-JE ME PERFECTIONNER PROFESSIONNELLEMENT</pattern>
+        <template>Le perfectionnement professionnel peut prendre différentes formes. Pouvez-vous me dire dans quels domaines spécifiques vous souhaitez vous perfectionner?</template>
+    </category>
+
+    <!-- Catégorie de fermeture -->
+    <category>
+        <pattern>ADIEU</pattern>
+        <template>Merci de m'avoir consulté. N'hésitez pas à revenir si vous avez d'autres questions.</template>
+    </category>
+
+    <!-- Catégorie par défaut -->
+    <category>
+        <pattern>*</pattern>
+        <template>Je ne suis pas sûr de comprendre. Pourriez-vous reformuler votre question?</template>
+    </category>
+
+
+</aiml>
